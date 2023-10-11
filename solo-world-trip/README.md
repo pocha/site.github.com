@@ -2,7 +2,7 @@
 layout: page
 title: London to India solo motorcycle trip [2023]
 description: >
-  Solo motorcycle trip from London to India via Europe, Nordic, Turkey, Georgia, Russia, Kazakhstan, Tajikistan, Kyrgyzstan, China & Nepal
+  Solo motorcycle trip from London to India via Europe, Nordic, Turkey, Georgia, Russia, Kazakhstan, Tajikistan, Kyrgyzstan, China & Nepal. At the time of writing the post, I have covered 22,000 kms in around 5 months (150 days).
 last_modified_at: 2018-08-03
 no_link_title: false
 no_excerpt: false
@@ -30,7 +30,7 @@ As for the path, I wanted to ride through Fjords in Norway. I had attempted this
 At the time of writing this post, I ended up chaging the path quite a bit. The notable detour is avoiding west Kazakhstan in favour of Russia, primarily to avoid the heat. I was scared that if I broke down in 40+ deg heat, it may become fatal for me.
 
 <img src="/images/london-india-actual-path.png" style="margin-bottom: 0" />
-<p style="font-size: x-small;padding-bottom: 1em; text-align:center">The actual path I took. <a href="https://www.google.com/maps/d/u/1/edit?mid=1-k3z-DldosdzkuayqEkLbTK5lWG4-Tw&ll=43.03320326285542%2C34.30586065368651&z=4" target="_blank">Complete map link</a></p>
+<p style="font-size: x-small;padding-bottom: 1em; text-align:center">The actual path I took spanning 22,000 kms in 150 days (5 months) <a href="https://www.google.com/maps/d/u/1/edit?mid=1-k3z-DldosdzkuayqEkLbTK5lWG4-Tw&ll=43.03320326285542%2C34.30586065368651&z=4" target="_blank">Complete map link</a></p>
 
 As visible from the path, I have not completed the ride. My bike is parked at Almaty, Kazakhstan & I have come to India (more details on my [instagram post](https://www.instagram.com/p/CwvgMOjK0z1/)). As of now, my plan is to go back next summers & complete the ride.
 
