@@ -41,11 +41,12 @@ As usual, on the road, I wrote blog post of my experience. I got a lot of help f
 <ol class="related-posts">
 {% for post in site.data.blogs.uk_to_india %}
   <li class="h4">
-    <a href="{{ post.url }}" class="flip-title" target="_blank" style="position:relative">
-      <img align="left" style="width: 10em;" src="{{ post.pic }}"/>
-      <span style="text-align:left; margin-left: 10px; -webkit-box-decoration-break: clone; ">{{ post.title }}</span>
-      <div style="clear:both"></div>
-    </a>
+    <div style="clear:both; margin-bottom: 1em">
+      <a href="{{ post.url }}" class="flip-title" target="_blank" style="position:relative">
+        <img align="left" style="width: 10em; margin: 10px 0 0 0" src="{{ post.pic }}"/>
+        <span style="text-align:left; margin-left: 10px; -webkit-box-decoration-break: clone; ">{{ post.title }}</span>
+      </a>
+    </div>
   </li>
 {% endfor %}
 </ol>
