@@ -26,7 +26,7 @@ P.S. the name is inspired by 'Bunk A Biker' :)
         <h4>{{ entry.name }}</h4>
 
         <p>{{ entry.content }}</p>
-
+        <br/>
         {% if entry.links.first %}
             {% for link in entry.links %}
                 {% if link.type and link.type == "whatsapp" %}
