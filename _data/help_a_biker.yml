@@ -1,4 +1,12 @@
 resources:
+  - name: 'Bike Point Pereiro 34'
+    tags: stay, bike-point, russia, volgograd
+    content: Oleg (road name Pereiro .. apparently in Russia, there is tradition of every biker having a road name), owner of the Bike Point, is probably the most connected guys among bikers in Soviet Union. He has friends pretty much everywhere in Soviet region. Bike Point is a hostel like setup for traveling motorbikers in Soviet Union & you pay as you like. Oleg can understand & speak a bit of English, but best to converse with him on whatsapp in Russian using Google Translate
+    links:
+      - type: whatsapp
+        content: +7 904 411 25 30
+      - type: url
+        content: https://vk.com/bikepointpereiro34
   - name: 'Bull Bikers - be free & help'
     tags: romania, brassov, biker-club
     content: Dan, owner of the biker club, is located in Brassov, Romania. Fairly well connected among biker community & should be able to get you help anywhere in Romania. Reach out to him on Whatsapp.
@@ -22,14 +30,22 @@ resources:
     tags: romania, stay, housing, facebook
     content: 'Group for seeking free stay for motorbikers in Romania. Around 11k members. Public group so anyone can post. Suggest to post in Romanian for seeking wider help (use Google Translate)'
     links: https://www.facebook.com/groups/442155149702636
+  - name: Dalnyak.rf / Motaway
+    tags: russia, biker-club, vk.com
+    content: Biggest motorbiking club in Russia. Head to vk.com to seek help. The other url has listing of various resources for traveling bikers in Russia including bike posts.
+    links: [https://m.vk.com/motaway, https://xn--80ahtdk3gwa.xn--p1ai/]
   - name: 'Emergency Ride & Ride MF Romania'
     tags: romania, telegram, forum, biker-club
     content: 'Telegram channel to ask for help & some nearby rider would quickly respond. You need telegram app on your phone'
     links: https://t.me/rideemergency
   - name: 'Horizons Unlimited aka HU'
-    content: 'The most active group for seeking help from other traveling (& non traveling) motorbikers'
+    content: 'The most active group for seeking help from other traveling (& non traveling) motorbikers. Works well for seeking help for non-emergency / non-time-sensitive situations.'
     links: https://www.facebook.com/groups/thehubb
     tags: forum, facebook
+  - name: Motokarta
+    tags: russia, kazakhstan, tajikistan, kyrgyzstan
+    content: Motokarta is equivalent of iOverlander but much more popular in Russia / Soviet region. Unlike iOverlander, it also shows traveling motorbikers & in case of emergency, you may probably find someone nearby & possibly can summon him/her. For reaching out, whatsapp messaging is recommended after you have found the person's number from the website, especially if you can not speak Russian.
+    links: https://xn--80aa2ahkaqme.xn--p1ai/en/index.php
   - name: 'Motorcycle riders safety net Finland'
     tags: finland, biker-club, forum, facebook
     content: 'Largest Finnish motorcycle club with 12k members. Private group. To seek help, you need to join first. If anyone knows the contact of admins to reach out in emergency, please reach out & I will get those added'
