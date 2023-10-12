@@ -30,8 +30,9 @@ During my [solo London to India motorcycle trip](/solo-world-trip), I got a lot 
                 {% if link.type and link.type == "whatsapp" %}
                     <a href="https://wa.me/{{ link.content }}" target="_blank">{{ link.content }} (click to open in whatsapp)</a>
                 {% else %}
-                    <a href="{{ link }}">{{ link }}</a><br/>
+                    <a href="{{ link }}">{{ link }}</a>
                 {% endif %}
+                <br/>
             {% endfor %}
         {% else %}
             <a href="{{ entry.links }}">{{ entry.links }}</a><br/>

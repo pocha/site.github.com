@@ -171,7 +171,7 @@ document.addEventListener("updateTagsList", function (e) {
   resetFilter()
   var tags = e.detail.tagsList
   for (var i = 0; i < tags.length; i++) {
-    filterTag(tags[i])
+    filterTag(tags[i].toLowerCase())
   }
 })
 

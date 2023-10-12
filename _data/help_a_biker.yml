@@ -5,8 +5,7 @@ resources:
     links:
       - type: whatsapp
         content: +7 904 411 25 30
-      - type: url
-        content: https://vk.com/bikepointpereiro34
+      - https://vk.com/bikepointpereiro34
   - name: 'Bull Bikers - be free & help'
     tags: romania, brassov, biker-club
     content: Dan, owner of the biker club, is located in Brassov, Romania. Fairly well connected among biker community & should be able to get you help anywhere in Romania. Reach out to him on Whatsapp.
