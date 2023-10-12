@@ -1,0 +1,40 @@
+resources:
+  - name: 'Bull Bikers - be free & help'
+    tags: romania, brassov, biker-club
+    content: Dan, owner of the biker club, is located in Brassov, Romania. Fairly well connected among biker community & should be able to get you help anywhere in Romania. Reach out to him on Whatsapp.
+    links:
+      - type: whatsapp
+        content: +40 723 548 700
+  - name: 'Bunk A Biker'
+    content: 'Request free stay with motorbikers. While reaching out, your email may land in spam so it is worth trying to whatsapp message the host'
+    links:
+      [https://www.zeemaps.com/bunk-a-biker_world, https://www.bunkabiker.com/]
+    tags: stay, hotel, housing
+  - name: 'Bunk A Biker Norway'
+    tags: norway, stay, housing, forum, facebook
+    content: 'Around 5k people so not too big. Use Bunk A Biker map to find host. Can use the group for other biking related help'
+    links:
+      [
+        https://www.facebook.com/groups/babnorway,
+        https://www.zeemaps.com/bunk-a-biker_world
+      ]
+  - name: 'Cazare gratuită pentru motociclisti free accommodation for bikers'
+    tags: romania, stay, housing, facebook
+    content: 'Group for seeking free stay for motorbikers in Romania. Around 11k members. Public group so anyone can post. Suggest to post in Romanian for seeking wider help (use Google Translate)'
+    links: https://www.facebook.com/groups/442155149702636
+  - name: 'Emergency Ride & Ride MF Romania'
+    tags: romania, telegram, forum, biker-club
+    content: 'Telegram channel to ask for help & some nearby rider would quickly respond. You need telegram app on your phone'
+    links: https://t.me/rideemergency
+  - name: 'Horizons Unlimited aka HU'
+    content: 'The most active group for seeking help from other traveling (& non traveling) motorbikers'
+    links: https://www.facebook.com/groups/thehubb
+    tags: forum, facebook
+  - name: 'Motorcycle riders safety net Finland'
+    tags: finland, biker-club, forum, facebook
+    content: 'Largest Finnish motorcycle club with 12k members. Private group. To seek help, you need to join first. If anyone knows the contact of admins to reach out in emergency, please reach out & I will get those added'
+    links: https://www.facebook.com/groups/410895649319942
+  - name: 'Motorsykkelsiden'
+    tags: norway, biker-club, forum, facebook
+    links: https://www.facebook.com/groups/motorsykkelsiden
+    content: 'The largest Norwegian motorcycle club with 60k biker members. Private group. To seek help, you need to join first. If anyone knows the contact of admins to reach out in emergency, please reach out & I will get those added'

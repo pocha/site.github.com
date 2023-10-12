@@ -14,4 +14,49 @@ During my [solo London to India motorcycle trip](/solo-world-trip), I got a lot 
 
 ## Resource List
 
-> coming soon
+<div data-tags-editor data-tags-placeholder="filter resources by tags. Eg - biker-club or stay or norway" data-tags-list="">
+</div>
+<p style="font-size: x-small; width:100%; text-align:center"> <span>Multiple tags supported. Press enter after typing each tag name for filtering to take effect </span></p>
+
+<ul markdown="1">
+{% for entry in site.data.help_a_biker.resources %}
+    <li data-tags="{{ entry.tags }}">
+        <h4>{{ entry.name }}</h4>
+
+        <p>{{ entry.content }}</p>
+
+        {% if entry.links.first %}
+            {% for link in entry.links %}
+                {% if link.type and link.type == "whatsapp" %}
+                    <a href="https://wa.me/{{ link.content }}" target="_blank">{{ link.content }} (click to open in whatsapp)</a>
+                {% else %}
+                    <a href="{{ link }}">{{ link }}</a><br/>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <a href="{{ entry.links }}">{{ entry.links }}</a><br/>
+        {% endif %}
+
+        {% assign tags = entry.tags | split: "," %}
+        <div class="tg-wrapper">
+            {% for tag in tags %} <span class="tg-tag"> {{ tag }}</span>{% endfor %}
+        </div>
+    </li>
+
+{% endfor %}
+
+</ul>
+
+<script src="./tags_editor.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+
+    [data-toggle='on'] {
+        display:block;
+    }
+
+    [data-toggle='off'] {
+        display:none;
+    }
+
+</style>
