@@ -12,6 +12,8 @@ cover: true
 
 During my [solo London to India motorcycle trip](/solo-world-trip), I got a lot of help from various motorbikers. Usually, the modus operandi went like this - some motorbiker whom I had found from [Bunk A Biker](https://www.zeemaps.com/bunk-a-biker_world), knew local motorcycle club & asked for help in the group on my behalf & voila, my problem used to be solved :). While on the road, I figured that finding these groups by myself was hard. So I decided to create a listing of such resources.
 
+P.S. the name is inspired by 'Bunk A Biker' :)
+
 ## Resource List
 
 <div data-tags-editor data-tags-placeholder="filter resources by tags. Eg - biker-club or stay or norway" data-tags-list="">
