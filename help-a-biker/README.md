@@ -18,7 +18,7 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 
 <div data-tags-editor data-tags-placeholder="filter resources by tags. Eg - biker-club or stay or norway" data-tags-list="">
 </div>
-<p style="font-size: x-small; width:100%; text-align:center"> <span>Multiple tags supported. Press enter after typing each tag name for filtering to take effect </span></p>
+<p style="font-size: small; width:100%; text-align:center; font-style: italic"> <span>Multiple tags supported. Press enter after typing each tag name for filtering to take effect </span></p>
 
 <ul markdown="1">
 {% for entry in site.data.help_a_biker.resources %}
@@ -53,6 +53,9 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 <script src="./tags_editor.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <style>
+    .tg-wrapper:empty {
+        display: none
+    }
 
     [data-toggle='on'] {
         display:block;
@@ -63,3 +66,17 @@ P.S. the name is inspired by 'Bunk A Biker' :)
     }
 
 </style>
+
+## Contribute a resource via comment please
+
+> If you did not find a resource & would like to contribute, please drop a comment with name, description & link/contact & I will be happy to add it in the list
+
+<div id="disqus_thread"></div>
+<script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://pocha-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
