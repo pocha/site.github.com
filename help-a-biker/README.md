@@ -55,9 +55,7 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 <script src="./tags_editor.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <style>
-    .tg-input {
-        display: none
-    }
+
     .tg-wrapper:empty {
         display: none
     }
