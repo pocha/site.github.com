@@ -7,7 +7,7 @@ last_modified_at: 2018-08-03
 no_link_title: false
 no_excerpt: false
 hide_image: false
-cover: true
+cover: false
 ---
 
 <img src="/images/pan-india-trip.png" style="width:100%; margin-bottom:0" />

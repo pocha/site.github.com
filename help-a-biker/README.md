@@ -7,7 +7,7 @@ last_modified_at: 2018-08-03
 no_link_title: false
 no_excerpt: false
 hide_image: false
-cover: true
+cover: false
 ---
 
 During my [solo London to India motorcycle trip](/solo-world-trip), I got a lot of help from various motorbikers. Usually, the modus operandi went like this - some motorbiker whom I had found from [Bunk A Biker](https://www.zeemaps.com/bunk-a-biker_world), knew local motorcycle club & asked for help in the group on my behalf & voila, my problem used to be solved :). While on the road, I figured that finding these groups by myself was hard. So I decided to create a listing of such resources.
@@ -18,7 +18,9 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 
 <div data-tags-editor data-tags-placeholder="filter resources by tags. Eg - biker-club or stay or norway" data-tags-list="">
 </div>
-<p style="font-size: small; width:100%; text-align:center; font-style: italic"> <span>Multiple tags supported. Press enter after typing each tag name for filtering to take effect </span></p>
+<div data-all-tags class="tg-wrapper"></div>
+
+<p style="font-size: small; width:100%; text-align:center; font-style: italic"> <span>Click on tags to select them to filter the list below</span></p>
 
 <ul markdown="1">
 {% for entry in site.data.help_a_biker.resources %}
@@ -53,6 +55,9 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 <script src="./tags_editor.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <style>
+    .tg-input {
+        display: none
+    }
     .tg-wrapper:empty {
         display: none
     }
@@ -64,6 +69,8 @@ P.S. the name is inspired by 'Bunk A Biker' :)
     [data-toggle='off'] {
         display:none;
     }
+
+    #_navbar { display: none }
 
 </style>
 
