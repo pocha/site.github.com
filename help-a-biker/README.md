@@ -17,12 +17,11 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 ## Resource List
 
 <div data-tags-editor data-tags-placeholder="filter resources by tags. Eg - biker-club or stay or norway" data-tags-list="">
+    <h4 style="margin-top: 1em">Filter by Tags</h4>
 </div>
-<div data-all-tags class="tg-wrapper"></div>
+<p style="font-size: small; width:100%; text-align:center; font-style: italic"> <span>Click on tags to filter the list below</span></p>
 
-<p style="font-size: small; width:100%; text-align:center; font-style: italic"> <span>Click on tags to select them to filter the list below</span></p>
-
-<ul markdown="1">
+<ul markdown="1" id="resource-list">
 {% for entry in site.data.help_a_biker.resources %}
     <li data-tags="{{ entry.tags }}">
         <h4>{{ entry.name }}</h4>
@@ -44,7 +43,7 @@ P.S. the name is inspired by 'Bunk A Biker' :)
 
         {% assign tags = entry.tags | split: "," %}
         <div class="tg-wrapper">
-            {% for tag in tags %} <span class="tg-tag"> {{ tag }}</span>{% endfor %}
+            {% for tag in tags %} <span class="tg-tag">{{ tag | strip }}</span>{% endfor %}
         </div>
     </li>
 
@@ -59,6 +58,9 @@ P.S. the name is inspired by 'Bunk A Biker' :)
     .tg-wrapper:empty {
         display: none
     }
+    .tg-input {
+        display: none
+    }
 
     [data-toggle='on'] {
         display:block;
@@ -69,6 +71,26 @@ P.S. the name is inspired by 'Bunk A Biker' :)
     }
 
     #_navbar { display: none }
+
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #6b38d7;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .button:hover {
+        background-color: #2980b9;
+    }
 
 </style>
 
